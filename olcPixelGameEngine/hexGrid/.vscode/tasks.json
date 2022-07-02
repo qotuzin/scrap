@@ -1,0 +1,10 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "C/C++: olcPixelGameEngine Build Project",
+        "type": "shell",
+        "command": "g++ -c src/*.cpp -I include && g++ *.o -o bin/debug/main -lGL -lpng -lX11 && ./bin/debug/main"
+      }
+    ]
+  }
